@@ -1,0 +1,14 @@
+blank_issues_enabled: false
+contact_links:
+  - name: Documentation
+    url: https://docs.snapsvault.xyz
+    about: Quickstart, Marketplace, SnapsOS CLI, REST API and the contributor guide
+  - name: Contribute snapshots
+    url: https://docs.snapsvault.xyz/contributing/list-your-snapshots
+    about: Contributors add their snapshots through this registry by pull request
+  - name: Feedback and questions
+    url: https://docs.snapsvault.xyz/contributing/feedback
+    about: Where to ask a question, including Telegram
+  - name: Report a security issue
+    url: https://github.com/denodesxyz/snapsvault-registry/security/policy
+    about: Report vulnerabilities privately, not as a public issue

@@ -1,0 +1,16 @@
+{
+  "contributor": {
+    "name": "QubeLabs",
+    "website": "https://qubelabs.io",
+    "email": "security@qubelabs.io",
+    "x": "https://x.com/qubelabs",
+    "description": "Blockchain consultancy and validation services for the Web3 ecosystem",
+    "logoUrl": "https://s3.amazonaws.com/keybase_processed_uploads/1e16179fb7663645eccba50df069a105_360_360.jpg"
+  },
+  "snapshots": [
+    {
+      "snapshots": "https://celestia.snapsvault.xyz/feeds/qubelabs-celestia-mocha5.json",
+      "type": "archive"
+    }
+  ]
+}

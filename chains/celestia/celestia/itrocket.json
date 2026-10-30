@@ -1,0 +1,17 @@
+{
+  "contributor": {
+    "name": "ITRocket",
+    "website": "https://itrocket.net",
+    "x": "https://x.com/itrocket_team",
+    "telegram": "https://t.me/itrocket_team",
+    "description": "Enterprise-level node infrastructure and tooling for node operators and developers",
+    "logoUrl": "https://s3.amazonaws.com/keybase_processed_uploads/0a74c3f3213c01f5b02f4795c7eb5d05_360_360.jpg"
+  },
+  "snapshots": [
+    {
+      "snapshots": "https://celestia.snapsvault.xyz/feeds/itrocket-celestia-mainnet.json",
+      "type": "pruned",
+      "period": "4h"
+    }
+  ]
+}

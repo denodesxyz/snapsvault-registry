@@ -1,0 +1,16 @@
+{
+  "contributor": {
+    "name": "NodeStake",
+    "website": "https://nodestake.org",
+    "email": "info@nodestake.org",
+    "x": "https://x.com/NodeStake_top",
+    "description": "Infrastructure foundation of the multi-chain economy: validators, relayers, RPC and institutional staking",
+    "identity": "94EFE192B2C52424"
+  },
+  "snapshots": [
+    {
+      "snapshots": "https://celestia.snapsvault.xyz/feeds/nodestake-celestia-mainnet.json",
+      "type": "pruned"
+    }
+  ]
+}

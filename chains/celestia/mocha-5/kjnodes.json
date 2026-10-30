@@ -1,0 +1,16 @@
+{
+  "contributor": {
+    "name": "kjnodes",
+    "website": "https://services.kjnodes.com",
+    "email": "contact@kjnodes.com",
+    "description": "Cosmos ecosystem validator and chain service provider since 2021",
+    "logoUrl": "https://s3.amazonaws.com/keybase_processed_uploads/d6f1e63ac25d855dad5d1d5915988205_360_360.jpg"
+  },
+  "snapshots": [
+    {
+      "snapshots": "https://celestia.snapsvault.xyz/feeds/kjnodes-celestia-mocha5.json",
+      "type": "pruned",
+      "period": "6h"
+    }
+  ]
+}

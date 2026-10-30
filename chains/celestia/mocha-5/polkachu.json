@@ -1,0 +1,17 @@
+{
+  "contributor": {
+    "name": "Polkachu",
+    "website": "https://polkachu.com",
+    "email": "hello@polkachu.com",
+    "x": "https://x.com/polka_chu",
+    "telegram": "https://t.me/polkachu",
+    "description": "Trusted blockchain validator and infrastructure provider across 60+ Cosmos networks",
+    "logoUrl": "https://s3.amazonaws.com/keybase_processed_uploads/d56ce0bdda17f73d4aa895d1626e2505_360_360.jpg"
+  },
+  "snapshots": [
+    {
+      "snapshots": "https://celestia.snapsvault.xyz/feeds/polkachu-celestia-mocha5.json",
+      "type": "pruned"
+    }
+  ]
+}

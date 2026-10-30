@@ -1,0 +1,16 @@
+{
+  "contributor": {
+    "name": "Noders",
+    "website": "https://noders.team",
+    "email": "office@noders.team",
+    "description": "Web3 development and validation services: applications, blockchain validation, infrastructure and community growth",
+    "logoUrl": "https://s3.amazonaws.com/keybase_processed_uploads/a57832ea25adc993ce911f8e80acc805_360_360.jpg"
+  },
+  "snapshots": [
+    {
+      "snapshots": "https://celestia.snapsvault.xyz/feeds/noders-celestia-mainnet.json",
+      "type": "pruned",
+      "period": "24h"
+    }
+  ]
+}

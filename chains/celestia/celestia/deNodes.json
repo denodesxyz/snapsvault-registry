@@ -1,0 +1,20 @@
+{
+  "contributor": {
+    "name": "deNodes",
+    "email": "hello@denodes.io",
+    "discord": "bombermine",
+    "telegram": "https://t.me/denodes",
+    "x": "https://x.com/denodes_io",
+    "description": "An institutional-grade staking provider delivering secure operations and superior performance for PoS networks",
+    "website": "https://denodes.io",
+    "identity": "C89053F92B77D8C0"
+  },
+  "snapshots": [
+    {
+      "snapshots": "https://celestia-mainnet-snap.denodes.xyz/index.json",
+      "type": "pruned",
+      "period": "4h",
+      "tx_index": false
+    }
+  ]
+}

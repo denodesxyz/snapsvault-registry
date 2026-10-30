@@ -1,0 +1,47 @@
+name: Validate registry
+
+on:
+  pull_request:
+  push:
+    branches: [main]
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+concurrency:
+  group: validate-${{ github.event.pull_request.number || github.ref }}
+  cancel-in-progress: true
+
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@11d5960a326750d5838078e36cf38b85af677262 # v4.4.0
+        with:
+          fetch-depth: 0
+          persist-credentials: false
+
+      - uses: actions/setup-node@49933ea5288caeca8642d1e84afbd3f7d6820020 # v4.4.0
+        with:
+          node-version: 22
+
+      - name: Test the validator
+        run: node --test test/*.test.mjs
+
+      - name: Check changed contributor files with the validator of the base branch
+        if: github.event_name == 'pull_request'
+        env:
+          BASE_REF: ${{ github.base_ref }}
+        run: |
+          if git cat-file -e "origin/$BASE_REF:scripts/validate.mjs"; then
+            git show "origin/$BASE_REF:scripts/validate.mjs" > "$RUNNER_TEMP/validate.mjs"
+            node "$RUNNER_TEMP/validate.mjs" --root "$GITHUB_WORKSPACE" --base "origin/$BASE_REF"
+          else
+            node scripts/validate.mjs --base "origin/$BASE_REF"
+          fi
+
+      - name: Check all contributor files
+        if: github.event_name != 'pull_request'
+        run: node scripts/validate.mjs --fetch-warnings
