@@ -3,12 +3,14 @@
     "name": "UnityNodes",
     "website": "https://unitynodes.com",
     "email": "contact@unitynodes.com",
-    "description": "Professional node validation services across multiple blockchain networks, ensuring high uptime, security and performance",
+    "x": "https://x.com/UnityNodes",
+    "description": "Trusted Blockchain Validator & Proof-of-Stake chain service provider. Celestia validator, bridge and Fibre operator; snapshots rotate every 4 hours.",
+    "identity": "9053BA44E467B89F",
     "logoUrl": "https://s3.amazonaws.com/keybase_processed_uploads/ae64e404f4e1a3ad280707bffb21f205_360_360.jpg"
   },
   "snapshots": [
     {
-      "snapshots": "https://celestia.snapsvault.xyz/feeds/unitynodes-celestia-mainnet.json",
+      "snapshots": "https://snapshots.unitynodes.com/snapsvault-celestia-mainnet.json",
       "type": "pruned",
       "period": "4h"
     }
