@@ -8,9 +8,14 @@
   },
   "snapshots": [
     {
-      "snapshots": "https://celestia.snapsvault.xyz/feeds/kjnodes-celestia-mainnet.json",
+      "snapshots": "https://snapshots.kjnodes.com/celestia/index.json",
       "type": "pruned",
       "period": "6h"
+    },
+    {
+      "snapshots": "https://celestia-snapshots.kjnodes.com/celestia-archive/index.json",
+      "type": "archive",
+      "period": "31d"
     }
   ]
 }
