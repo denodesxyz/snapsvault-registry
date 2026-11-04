@@ -8,7 +8,7 @@
   },
   "snapshots": [
     {
-      "snapshots": "https://celestia.snapsvault.xyz/feeds/kjnodes-celestia-mocha5.json",
+      "snapshots": "https://snapshots.kjnodes.com/celestia-testnet/index.json",
       "type": "pruned",
       "period": "6h"
     }
