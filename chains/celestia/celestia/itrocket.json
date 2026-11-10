@@ -9,7 +9,7 @@
   },
   "snapshots": [
     {
-      "snapshots": "https://celestia.snapsvault.xyz/feeds/itrocket-celestia-mainnet.json",
+      "snapshots": "https://server-1.itrocket.net/mainnet/celestia/snapsvault.json",
       "type": "pruned",
       "period": "4h"
     }
