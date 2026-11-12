@@ -8,9 +8,10 @@
   },
   "snapshots": [
     {
-      "snapshots": "https://celestia.snapsvault.xyz/feeds/noders-celestia-mainnet.json",
+      "snapshots": "https://snapshots.noders.services/mainnet/celestia/index.json",
       "type": "pruned",
-      "period": "24h"
+      "period": "6h",
+      "tx_index": false
     }
   ]
 }
